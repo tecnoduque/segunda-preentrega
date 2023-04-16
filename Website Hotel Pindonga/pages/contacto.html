@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--llamo a google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans&display=swap" rel="stylesheet">
+    <!--lllamo a la hoja de estilos-->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIENVENIDO A LA WEB DE HOTEL PINDONGA *****</title>
+</head>
+<body>
+    <header id="encabezado">
+        <div class="logo">
+            <a href="../index.html">
+            <img src="../img/logo.png" alt="logo hotel pindonga" width="20%" height="20%">  <h1> HOTEL PINDONGA </h1>
+        <!--link relativo-->
+        
+        
+        </div>
+    
+        <nav>
+            <ul>
+                <li>
+                    <a href="habitaciones.html">
+                        Habitaciones
+                    </a> 
+                </li>
+                <li>
+                    <a href="ubicacion.html">
+                        Ubicación
+                    </a> 
+                </li>
+                <li>
+                    <a href="contacto.html">
+                        Contacto
+                    </a> 
+                    
+                </li>
+                <li>
+                    <a href="quienessomos.html">
+                        Quienes somos
+                    </a> 
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+<main>
+ <!-- Formulario de contacto y reservas-->
+ <div class="copete">
+
+ <h3><span>Si necesita ponerse en contacto con el Hotel Pindonga, puede hacerlo de varias maneras. El número de teléfono del hotel es +XX-XXX-XXXXXXX, y nuestro correo electrónico es info@hotelpindonga.com. </span>También puede visitar nuestro sitio web en www.hotelpindonga.com para obtener más información y hacer una reserva en línea.
+
+    Nuestro amable personal está disponible las 24 horas del día para ayudarlo con cualquier pregunta o solicitud que pueda tener durante su estadía. Si necesita asistencia antes de su llegada, no dude en contactarnos y estaremos encantados de ayudarlo en todo lo que podamos.
+    
+    Gracias por considerar el Hotel Pindonga para su próxima estadía, esperamos tener el placer de servirle pronto.</h3>
+ </div>
+    <form class="formulario">
+        <fieldset>
+          <legend></legend>
+          <!-- este grupos forms es para poder maquetear que queden juntos el label y el input -->
+        <div class="gruposforms">  <label for="name">Nombre y Apellido</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <div class="gruposforms">  <label for="pais">Pais</label>
+          <select>
+                    <option value="ar">Argentina</option>
+                    <option value="br">Brasil</option>
+                    <option value="cl">Chile</option>
+                    <option value="pe">Perú</option>
+                    <option value="me">México</option>
+                    <option value="co">Colombia</option>
+                    <option value="ve">Venezuela</option></select>  
+        </div>
+         <div class="gruposforms">    <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="gruposforms">    <label for="fechallegada">Fecha de llegada</label>
+          <input type="date" id="fechallegada" name="fechallegada">
+        </div>
+        <div class="gruposforms">    <label for="mandaspam">Desea recibir Spam?</label>
+            <input type="checkbox" id="mandaspam" name="mandapsam">
+          </div>
+
+        <div class="gruposforms">    <input type="submit" value="Enviar">
+        </div>
+
+        </fieldset>
+      </form>
+</main>
+
+<section>
+        <!--para poner los precios uso tablas-->
+       <div class="precios"> 
+        <table>
+            <tr>
+                <td>
+                 Temporada baja
+                </td>
+                 <td>
+                 Temporada alta
+                 </td>
+                 <td>
+                Fechas especiales
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                $10,000
+                </td>
+                <td> 
+                $20,000
+                </td>
+                <td> 
+                $25,000
+                </td>
+            </tr>
+        </table>
+    </div>  
+</section>
+
+            </main>
+
+<footer>
+    <p>Gracias por elegir el Hotel Pindonga. Esperamos que haya disfrutado su estancia con nosotros y que vuelva pronto. No dude en ponerse en contacto con nuestro amable equipo si necesita ayuda con cualquier cosa durante su visita. También nos encantaría saber su opinión sobre su experiencia en el Hotel Pindonga, por favor, tómese un momento para dejarnos sus comentarios. ¡Gracias de nuevo por elegir nuestro hotel como su destino de hospedaje!<p>
+    
+        <div>
+            <a href="#"><img src="../img/tripadvisor.png" alt="" class="social"></a>
+            <a href="#"><img src="../img/instagram.png" alt="" class="social"></a>
+            <a href="#"><img src="../img/facebook.png" alt="" class="social"></a>
+        </div>
+
+</footer>
+
+
+</body>
+</html>
+
+
+
+
